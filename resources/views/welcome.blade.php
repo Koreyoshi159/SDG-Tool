@@ -9,7 +9,6 @@
 
     <section class="section">
         <div class="container">
-        hello
             <div class="columns">
             <div class="section-sdg-goals is-align-content-space-evenly" style="padding-left: 90px">
                 <div class="is-flex-wrap-wrap sdg-icon">

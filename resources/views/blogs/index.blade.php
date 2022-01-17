@@ -14,7 +14,7 @@
                 Use the filters to search for what you want
             </p>
         </div>
-        <a href="{{ route('blogs.create') }}" class="button is-light is-link">Add a Blog</a>
+        <a href="{{ route('blogs.create') }}" class="button is-light is-link">Create a Blog</a>
     </section>
     <div class="container">
         <label for="textFilter">

@@ -28,7 +28,11 @@ jobs:
       run: |
         mkdir -p database
         touch database/database.sqlite
+<<<<<<< HEAD
   - name: Execute tests (Unit and Feature tests) via PHPUnit
+=======
+    - name: Execute tests (Unit and Feature tests) via PHPUnit
+>>>>>>> d7f87c02f2a30dd4f5da8b1e56fdd78917215bf6
       env:
         DB_CONNECTION: sqlite
         DB_DATABASE: database/database.sqlite

@@ -2,9 +2,9 @@ name: Laravel
 
 on:
   push:
-    branches: [ develop ]
+    branches: [ main ]
   pull_request:
-    branches: [ develop ]
+    branches: [ develop, main ]
 
 jobs:
   laravel-tests:
@@ -28,7 +28,7 @@ jobs:
       run: |
         mkdir -p database
         touch database/database.sqlite
-    - name: Execute tests (Unit and Feature tests) via PHPUnit
+  - name: Execute tests (Unit and Feature tests) via PHPUnit
       env:
         DB_CONNECTION: sqlite
         DB_DATABASE: database/database.sqlite

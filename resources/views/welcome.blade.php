@@ -15,7 +15,7 @@
                         @foreach($sdgs as $sdg)
                             <a href="/sdgs/{{ $sdg->id }}"><img src="{{ $sdg->img_link }}" /></a>
                         @endforeach
-                    <a href="#"><img src="./image/SDG-Icons-EN/sdg-en-18.png" /></a>
+                    <a href="!"><img src="./image/SDG-Icons-EN/sdg-en-18.png" /></a>
                 </div>
             </div>
         </div>

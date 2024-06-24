@@ -6,7 +6,7 @@
 
 @section('content')
     <div class="columns contact-columns">
-        <div class="column is-12 has-text-centered"><h1 class="title is-1">Contact Us</h1></div>
+        <div class="column is-12 has-text-centered"><h1 class="title is-1">Questions? Contact Us</h1></div>
     </div>
 
     <section class="section contact-section">
@@ -34,10 +34,11 @@
                                 <span class="icon is-large mb-6">
                                     <i class="fas fa-2x fa-at"></i>
                                 </span>
-                                <span class="is-size-4">joeriversluis@hz.nl</span>
+                                <span class="is-size-4">joeriversluis002@hz.nl</span>
                             </span>
                             <br>
                             <a href="https://www.linkedin.com/">
+                            <a href="https://www.metaverse.com/">
                             <span class="icon-text">
                                 <span class="icon is-large">
                                     <i class="fab fa-2x fa-linkedin"></i>
